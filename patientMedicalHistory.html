@@ -1,0 +1,167 @@
+<html>
+  <head>
+    <title>Patient Medical History</title>
+    <link rel="stylesheet" type="text/css" href="./styles/patientMedicalHistory.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h2>Patient Medical History</h2>
+          </div>
+          <div class="panel-body">
+            <form>
+              <div class="form-group">
+                <label for="firstName">First name</label>
+                <input type="text" class="form-control" id="firstName" />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last name</label>
+                <input type="text" class="form-control" id="lastName" placeholder=""/>
+              </div>
+              <div class="form-group">
+                <label for="dateofbirth">Date of birth</label>
+                <input type="date" class="form-control" id="dateofbirth"/>
+              </div>
+              <div class="form-group">
+                <label>Gender</label>
+                <div>
+                  <label class="radio-inline" for="male"><input type="radio" name="gender" id="male" />Male</label>
+                  <label class="radio-inline" for="female"><input type="radio"name="gender"id="female"/>Female</label>
+                  <label class="radio-inline" for="other"><input type="radio" name="gender" id="other" />Other</label>
+                </div><br/>
+              <div class="form-group">
+                <label for="inputAddress">Address 1</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group">
+                  <label for="inputState">State</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="inputZip">Postal/Zip code</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+              </div>
+              
+              </div>
+              <div class="form-group">
+                <label for="email">Patient e-mail</label>
+                <input type="text" class="form-control" id="email" placeholder="xyz@gmail.com" />
+              </div>
+              <div class="form-group">
+                <label for="phoneNumber">Phone number</label>
+                <input type="number" class="form-control" id="phoneNumber" placeholder="1234567890"/>
+              </div>
+              <div class="form-group">
+                <label for="patientheight">Patient height (cm's)</label>
+                <input type="number" class="form-control" id="patientheight" placeholder="ex: 170" />
+              </div>
+              <div class="form-group">
+                <label for="patientweight">Patient weight (kg's)</label>
+                <input type="number" class="form-control" id="patientweight" placeholder="ex:70" />
+              </div>
+              <div class="form-group">
+                <label for="reasonforseeingdoctor">Reason for seeing doctor</label>
+                <input type="number" class="form-control" id="reasonforseeingdoctor" placeholder="Valid Reason" />
+              </div>
+                <div class="form-group">
+                <label for="exampleFormControlTextarea1">Please list any  drug allergies </label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+              </div>
+              <div class="form-group">
+                <label>Have you ever had (Please check all that apply)</label>
+                <div>
+                    
+                    <input type="checkbox" id="d1" name="d1" value="v3">
+                    <label class="radio-inline" for="d1">Anemia</label><br>
+                    <input type="checkbox" id="d2" name="d2" value="v3">
+                    <label class="radio-inline" for="d2">Asthma</label><br>
+                    <input type="checkbox" id="d3" name="d3" value="v3">
+                    <label class="radio-inline" for="d3">Cancer</label><br>
+                    <input type="checkbox" id="d4" name="d4" value="v3">
+                    <label class="radio-inline" for="d4">Diabetes</label><br>
+                    <input type="checkbox" id="d5" name="d3" value="v3">
+                    <label class="radio-inline" for="d5">Heart Disease</label><br>
+                    <input type="checkbox" id="d6" name="d3" value="v3">
+                    <label class="radio-inline" for="d6">Heart attack</label><br>
+                    <input type="checkbox" id="d7" name="d3" value="v3">
+                    <label class="radio-inline" for="d7">High blood pressure</label><br>
+                    <input type="checkbox" id="d8" name="d3" value="v3">
+                    <label class="radio-inline" for="d8">Hepatitis</label><br>
+                    <input type="checkbox" id="d9" name="d9" value="v3">
+                    <label class="radio-inline" for="d9">kidney disease</label><br>
+                    <input type="checkbox" id="d10" name="d10" value="v3">
+                    <label class="radio-inline" for="d10">Liver disease</label><br>
+                    <input type="checkbox" id="d11" name="d11" value="v3">
+                    <label class="radio-inline" for="d11">Sleep apena</label><br>
+                    <input type="checkbox" id="d12" name="d12" value="v3">
+                    <label class="radio-inline" for="d12">Thyroid problem</label><br>
+                    <input type="checkbox" id="d13" name="d13" value="v3">
+                    <label class="radio-inline" for="d13">Neurological disorders</label><br>
+                    <input type="checkbox" id="d14" name="d14" value="v3">
+                    <label class="radio-inline" for="d14">Bleeding disorders</label><br>
+                    <input type="checkbox" id="d15" name="d15" value="v3">
+                    <label class="radio-inline" for="d15">Lung disorders</label><br>
+                
+                </div><br/>
+                <div class="form-group">
+                    <label for="otherillness">Other illness</label>
+                    <input type="number" class="form-control" id="otherillness" placeholder="All details" />
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea2">Please list any operations and dates of each</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea2" row="2"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea3">Please list your current medications</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea3" row="2"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label>Exercise</label>
+                    <div>
+                      <label class="radio-inline" for="exercise1"><input type="radio" name="never" id="exercise1" />never</label><br/>
+                      <label class="radio-inline" for="exercise2"><input type="radio"name="1-2days" id="exercise2"/>1 - 2 days</label><br/>
+                      <label class="radio-inline" for="exercise3"><input type="radio" name="3-4days" id="exercise3" />3 - 4 days</label><br/>
+                      <label class="radio-inline" for="exercise4"><input type="radio" name="5+days" id="exercise3" />5 + days</label><br/>
+
+                    </div><br/>
+                    <div class="form-group">
+                        <label>Alcohol consumption</label>
+                        <div>
+                          <label class="radio-inline" for="exercise1"><input type="radio" name="never" id="exercise1" />I don't drink</label><br/>
+                          <label class="radio-inline" for="exercise2"><input type="radio"name="1-2days" id="exercise2"/>1 - 2 glasses/day</label><br/>
+                          <label class="radio-inline" for="exercise3"><input type="radio" name="3-4days" id="exercise3" />3 - 4 glasses/day</label><br/>
+                          <label class="radio-inline" for="exercise4"><input type="radio" name="5+days" id="exercise3" />5 + glasses/day</label><br/>
+    
+                        </div><br/>
+                        <div class="form-group">
+                            <label>Do you smoke ?</label>
+                            <div>
+                              <label class="radio-inline" for="exercise1"><input type="radio" name="never" id="exercise1" />No</label><br/>
+                              <label class="radio-inline" for="exercise2"><input type="radio"name="1-2days" id="exercise2"/>0 - 1 pack/day</label><br/>
+                              <label class="radio-inline" for="exercise3"><input type="radio" name="3-4days" id="exercise3" />1 - 2 pack/day</label><br/>
+                              <label class="radio-inline" for="exercise4"><input type="radio" name="5+days" id="exercise3" />2 + pack/day</label><br/>
+        
+                            </div>
+            </form>
+          </div>
+          <div class="panel-footer text-center"><button type="button" class="btn btn-primary">Submit</button></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

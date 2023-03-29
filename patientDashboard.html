@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Dashboard</title>
+    <link rel="stylesheet" href="./styles/patientDashboard.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/1a0a802c64.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1a0a802c64.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="header-icon">
+            <img src="./images/logo.jpg" alt="My health app">
+        </div>
+        <div class="header-list">
+            <ul>
+                <li>Home</li>
+                <li><a href="./patientMedicalHistory.html" style="text-decoration: none; color: black;">Patient Medical History</a></li>
+                <li>Awarness</li>
+                <li><input type="text" placeholder="Search" id="Search"></li>
+                <i class="fa-solid fa-gear fa-xl"></i>
+                <i class="fa-solid fa-bell fa-xl"></i>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div>
+            <div class="firstImg">
+                <img src="./images/patient image.jpg" alt="">
+                <h4>Barnice Douglace</h4>
+                <p>29 july,1982</p>
+            </div>
+            <div class="secondImg">
+                <div class="health">
+                    <p>Health Care Professional</p>
+                </div>
+                <div class="doc_img">
+                    <img src="./images/doctor.jpg" alt="">
+                    <p>Douglas Wong</p>
+                </div>
+                <p>Health Paln</p>
+                <div class="doc_img">
+                    <img src="./images/tree.png" alt="">
+                    <p>Douglas Wong</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="firstAbout">
+                <div id="maid">
+                    <h4>Medications</h4>
+                </div>
+                <div id="report">
+                    <h4>Report Adverse Effect</h4>
+                </div>
+            </div>
+            <div class="chota-button">
+                <button>List</button>
+                <button>Schedule</button>
+
+            </div>
+            <div class="firstTrack">
+
+                <div>
+                    <p class="time">07.30am <span class="eat-time">(Before Brakefast)</span></p>
+                    <p>Scmpraz 100 10mg</p>
+                </div>
+                <div>
+                    <p class="time">07.30am <span class="eat-time">(After Brakefast)</span></p>
+                    </p>
+                    <p>Scmpline 120 2mg</p>
+                    <p>Novolog Mix 70/30 30mg</p>
+                </div>
+                <div>
+                    <p class="time">12.30am <span class="eat-time">(After lunch)</span></p>
+                    <p>SymplinePen 120 2mg</p>
+                </div>
+                <div>
+                    <p class="time"> 06.30am <span class="eat-time">(Before Dinner)</span></p>
+                    <p>Scmpraz 100 10mg</p>
+                </div>
+                <div>
+                    <p class="time">07.30am <span class="eat-time">(After Brakefast)</span></p>
+                    </p>
+                    <p>Scmpline 120 2mg</p>
+                    <p>Novolog Mix 70/30 30mg</p>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div>
+            <div class="box1">
+                <h3>Acitivities</h3>
+            </div>
+            <div class="box2">
+                <div>
+                    <i class="fa-solid fa-icon fa-person-walking fa-3x"></i>
+                    <h3>Brisk Walk</h3>
+                    <p>2 hours</p>
+                    <p>Daily</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-icon fa-person-swimming fa-3x"></i>
+                    <h3>Swimming</h3>
+                    <p>30 minutes</p>
+                    <p>Alternate days</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-icon fa-person-biking fa-3x"></i>
+                    <h3>Cycling</h3>
+                    <p>30 minutes</p>
+                    <p>Daily</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-icon fa-person-running fa-3x "></i>
+                    <h3>Run</h3>
+                    <p id="avoid">Avoid</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div id="my_report">
+                <h2>My Reports</h2>
+            </div>
+            <div class="chota-button">
+                <button>Latest</button>
+                <button>Archived</button>
+            </div>
+
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            <i class="fa-solid fa-report fa-pdf fa-file-pdf"></i>
+                        </td>
+                        <td class="blood">Blood Report</td>
+                        <td>24 Apr</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fa-solid fa-report  fa-pdf fa-file-pdf"></i>
+                        </td>
+                        <td class="blood">Diabities Lab Report</td>
+                        <td>24 Apr</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fa-solid fa-report  fa-pdf fa-file-pdf"></i>
+                        </td>
+                        <td class="blood">Blood Report</td>
+                        <td>22 Apr</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fa-solid fa-report fac-i  fa-pdf fa-file-pdf"></i>
+                        </td>
+                        <td class="blood">Diabetes Lab Report</td>
+                        <td>22 Apr</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fa-solid fa-report   fa-pdf fa-file-pdf"></i>
+                        </td>
+                        <td class="blood">Heart Report</td>
+                        <td>22 Apr</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fa-solid fa-report  fa-pdf fa-file-pdf"></i>
+                        </td>
+                        <td class="blood">Blood Report</td>
+                        <td>21 Apr</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fa-solid fa-report   fa-pdf fa-file-pdf"></i>
+                        </td>
+                        <td class="blood">Sugar Report</td>
+                        <td>21 Apr</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <p>About Us</p>
+        <p>FAQ</p>
+        <p>Support</p>
+    </footer>
+</body>
+
+</html>

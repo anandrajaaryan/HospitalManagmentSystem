@@ -1,0 +1,77 @@
+.pastMain{
+   
+    min-height: 20em !important;
+}
+
+.container-fluid{
+    margin-top: 65px;
+}
+.pastRecordRow{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    
+}
+.col1{
+    width: 50%;
+    background-color: white;
+    
+}
+.col2{
+    width: 50%;
+    background-color:white;
+}
+
+.card1{
+    height: 200px;
+    width: 400px;
+    font-weight: 200px;
+    background-color: rgb(241, 235, 235);
+    margin: 15px auto;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 20px 20px 10px grey;
+    word-break:normal;
+
+}
+.card1 ul{
+    padding: 30px;
+}
+.card1 a{
+    text-decoration: none;
+    color: blue;
+}
+
+.card1 a:hover{
+    color: rgb(249, 128, 243);
+
+}
+
+
+
+.card2{
+    height: 200px;
+    width: 400px;
+    font-weight: 200px;
+    background-color: rgb(241, 235, 235);
+    margin:15px auto;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 20px 20px 10px grey;
+    
+}
+.card2 ul{
+    padding: 30px;
+    
+}
+.card2 a{
+    text-decoration: none;
+    color: blue;
+}
+
+.card2 a:hover{
+    color: rgb(249, 128, 243);
+}
+
+
+.pastMain h2{
+    margin-left: 100px;
+}

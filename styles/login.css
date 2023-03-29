@@ -1,0 +1,23 @@
+body{
+    background-color: white;  
+}
+
+.container{
+    height: 80vh;
+    width: 50vw;
+    background-color: rgb(241, 238, 238);
+    box-shadow: 1em 1em 1em;
+}
+.btn{
+    background-color: rgb(13, 114, 154)!important;
+    border-radius: 2em;
+   
+}
+a{
+    text-decoration: none;
+}
+i{
+   
+   font-size: 1.2em;
+   color: gray;
+}
